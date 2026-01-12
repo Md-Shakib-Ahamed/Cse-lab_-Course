@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @keyframes sadhin{
+    0%   {background-color:rgb(237, 30, 30); left:0px; top:0px;
+      font-size:5px;
+      height: 60px;
+  width: 50px;}
+  20%  {background-color:rgb(230, 230, 21); left:200px; top:0px;}
+  40%  {background-color:rgb(85, 255, 0); left:200px; top:200px;}
+  50%  {background-color:rgb(0, 117, 128); left:0px; top:200px;}
+  80% {background-color:rgb(81, 0, 255); left:0px; top:100px;}
+  100% {background-color:rgb(255, 0, 179); left:0px; top:0px;}
+  
+  }
+  .my-button{
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  background-color: rgb(64, 101, 159);
+  color: aliceblue;
+  font-style:italic;
+  animation-name: sadhin;
+  animation-duration: 10s;
+  position: relative;
+  animation-iteration-count:infinite;
+}
+div + p {
+  background-color: rgb(0, 255, 76);
+}div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<h2><button class="my-button bang-ar-matha">My Life</button> </h2><br><b<br><br><br><br><b<br><br><br>
+
+<p>The + selector is used to select an element that is directly after another specific element.</p>
+<p>The following example selects the first p element that are placed immediately after div elements:</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+
+
+
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
